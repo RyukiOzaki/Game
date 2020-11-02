@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>342dfbcc-500f-4c3a-a09a-c20d595b4814</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>7d0b7d7f-6ec3-485d-a4f2-b579a6b83064</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameState">
+      <UniqueIdentifier>{c29bf99d-25c1-4750-8eaf-d98e41c9552d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Manager">
+      <UniqueIdentifier>{8d493362-3cff-4898-bf68-6e224ca1ae47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Interface">
+      <UniqueIdentifier>{08058092-033b-4043-817a-61f3722add8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\TitleState">
+      <UniqueIdentifier>{6624e4a5-e524-4632-8cd1-16cc7d12ccfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\PlayState">
+      <UniqueIdentifier>{3aa8e808-f77e-43b2-a150-ccf922131ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{3ea48c2c-4f79-40a9-aa70-543118c654c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collider">
+      <UniqueIdentifier>{8479ba32-50f1-44d7-a8cf-abfb7be32afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite\Sprite">
+      <UniqueIdentifier>{211a457a-b9eb-48b3-bf19-7a32496979e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite\Reader">
+      <UniqueIdentifier>{b78211d2-47b3-4bee-84f4-668bc58ba8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{aefaa3a7-ef5e-4e12-afab-6983e4ab223c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera\FixedPointCamera">
+      <UniqueIdentifier>{40f2bf46-1d60-40c9-bd61-db7096ac0151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{7f1ba9d9-3447-4a7c-9de8-898e0bc81506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Bace">
+      <UniqueIdentifier>{715985c9-6482-40e5-b17c-37595431b95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GameObjectManager">
+      <UniqueIdentifier>{6b9f5e4d-ff09-46f6-816e-ed2fc633fa3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Ground">
+      <UniqueIdentifier>{0c7fd07c-4a41-444f-9173-cd6c689a5934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Model">
+      <UniqueIdentifier>{84193048-351f-42a6-84de-50b21095dff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite\Drawer">
+      <UniqueIdentifier>{c2f72fbc-80f4-4f57-9b07-de19bb7c6210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite\Manager">
+      <UniqueIdentifier>{8b885ac6-7b5d-4ef6-88be-6e144750ff77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera\FollowCamera">
+      <UniqueIdentifier>{323357f6-0ca0-444b-854b-d3630b147d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Player">
+      <UniqueIdentifier>{7bf66897-493a-4c14-957e-1b63b60a907d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Floor">
+      <UniqueIdentifier>{fcef919a-270d-4497-9579-99f27c5a752d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Fruits">
+      <UniqueIdentifier>{74a9a4d0-0d29-4474-ac43-f85d7b6437d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemy">
+      <UniqueIdentifier>{4d0296c8-3fb7-41f8-8770-7da566a0af8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Score">
+      <UniqueIdentifier>{8f5cfb4a-e163-4d57-8ed4-c7aa0193b4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite\Batch">
+      <UniqueIdentifier>{497dcab2-033e-4f72-a6e4-6c89b4bcc257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite\NumDrawer">
+      <UniqueIdentifier>{3294a1fa-d987-42e6-9163-822f81b6cea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\VictoryState">
+      <UniqueIdentifier>{0ddd3b5e-7030-4526-832f-9e0df5e2045d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\DefeatState">
+      <UniqueIdentifier>{df3797f1-e7eb-4bfe-84c1-7934a493b7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\TieGameState">
+      <UniqueIdentifier>{903deece-0d3e-4c1e-b216-5139a09cd8f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite\NextMessage">
+      <UniqueIdentifier>{dc1041af-f950-4bf0-b0e7-3e681841da95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{432d9505-4fbe-4721-9ed2-6c61c3c92aea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContext.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>GameState\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IState.h">
+      <Filter>GameState\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleState.h">
+      <Filter>GameState\TitleState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>GameState\PlayState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject\Bace</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>GameObject\GameObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Sprite\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Sprite\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteDrawer.h">
+      <Filter>Sprite\Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteReader.h">
+      <Filter>Sprite\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedPointCamera.h">
+      <Filter>Camera\FixedPointCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>GameObject\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelObject.h">
+      <Filter>GameObject\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Score</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowCamera.h">
+      <Filter>Camera\FollowCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="PFall.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PIState.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PRunning.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PStanding.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>GameObject\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="Fruits.h">
+      <Filter>GameObject\Fruits</Filter>
+    </ClInclude>
+    <ClInclude Include="FruitsGenerator.h">
+      <Filter>GameObject\Fruits</Filter>
+    </ClInclude>
+    <ClInclude Include="EFall.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EIState.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ERunning.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ESearch.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EStanding.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Batch.h">
+      <Filter>Sprite\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="NumDrawer.h">
+      <Filter>Sprite\NumDrawer</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>Score</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreDrawer.h">
+      <Filter>Score</Filter>
+    </ClInclude>
+    <ClInclude Include="TieGameState.h">
+      <Filter>GameState\TieGameState</Filter>
+    </ClInclude>
+    <ClInclude Include="VictoryState.h">
+      <Filter>GameState\VictoryState</Filter>
+    </ClInclude>
+    <ClInclude Include="DefeatState.h">
+      <Filter>GameState\DefeatState</Filter>
+    </ClInclude>
+    <ClInclude Include="NextMessage.h">
+      <Filter>Sprite\NextMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="Adx2Le.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundLoader.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>GameState\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleState.cpp">
+      <Filter>GameState\TitleState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>GameState\PlayState</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject\Bace</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>GameObject\GameObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Sprite\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Sprite\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteDrawer.cpp">
+      <Filter>Sprite\Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteReader.cpp">
+      <Filter>Sprite\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedPointCamera.cpp">
+      <Filter>Camera\FixedPointCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>GameObject\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelObject.cpp">
+      <Filter>GameObject\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Score</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowCamera.cpp">
+      <Filter>Camera\FollowCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="PFall.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PRunning.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PStanding.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>GameObject\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="Fruits.cpp">
+      <Filter>GameObject\Fruits</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitsGenerator.cpp">
+      <Filter>GameObject\Fruits</Filter>
+    </ClCompile>
+    <ClCompile Include="EFall.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ERunning.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ESearch.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EStanding.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Batch.cpp">
+      <Filter>Sprite\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="NumDrawer.cpp">
+      <Filter>Sprite\NumDrawer</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreDrawer.cpp">
+      <Filter>Score</Filter>
+    </ClCompile>
+    <ClCompile Include="VictoryState.cpp">
+      <Filter>GameState\VictoryState</Filter>
+    </ClCompile>
+    <ClCompile Include="DefeatState.cpp">
+      <Filter>GameState\DefeatState</Filter>
+    </ClCompile>
+    <ClCompile Include="NextMessage.cpp">
+      <Filter>Sprite\NextMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="Adx2Le.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundLoader.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="TieGameState.cpp">
+      <Filter>GameState\TieGameState</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Resources\FBX\char.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\FBX\Animal.fbx">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\FBX\Animal2.fbx">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+</Project>
